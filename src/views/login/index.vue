@@ -16,7 +16,7 @@
             <el-checkbox v-model="loginForm.isAgree"> 用户平台使用协议 </el-checkbox>
           </el-form-item>
           <el-form-item>
-            <el-button @click="login" style="width: 350px" type="primary">登录</el-button>
+            <el-button style="width: 350px" type="primary" @click="login">登录</el-button>
           </el-form-item>
         </el-form>
       </el-card>
